@@ -1,0 +1,20 @@
+{
+  "name": "nasl",
+  "version": "0.0.0",
+  "description": "Node async logger using redis wire protocol",
+  "main": "client.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "nas;"
+  ],
+	"dependencies" : {
+		"hiredis" : "*",
+		"cassandra-client" : "*",
+		"node-uuid" : "*",
+		"daemonize2" : "*"
+	},
+  "author": "Gideon Rosales",
+  "license": "BSD"
+}
