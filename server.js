@@ -10,6 +10,7 @@ var server = net.createServer( function ( socket ) {
 	controller.setSocket( socket );
 } );
 
-server.listen(1000, function() {
+var port = 1000;
+server.listen( port , function() {
 	console.log('Logging server initiated');
 } );

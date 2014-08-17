@@ -15,7 +15,7 @@
 		"hiredis" : "*",
 		"cassandra-client" : "*",
 		"node-uuid" : "*",
-		"daemonize2" : "*"
+		"daemonize2" : "0.4.2"
 	},
   "author": "Gideon Rosales",
   "license": "BSD"
