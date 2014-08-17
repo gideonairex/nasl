@@ -30,3 +30,10 @@ CREATE TABLE log (
       PRIMARY KEY ((log_id))
     )
 ```
+
+###Get Package
+1. sudo npm install nasl -g
+
+###Run Server
+1. sudo npm nasl start
+2. sudo npm nasl stop
