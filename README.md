@@ -35,5 +35,5 @@ CREATE TABLE log (
 1. sudo npm install nasl -g
 
 ###Run Server
-1. sudo npm nasl start
-2. sudo npm nasl stop
+1. sudo nasl start
+2. sudo nasl stop
