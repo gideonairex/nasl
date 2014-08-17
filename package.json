@@ -4,11 +4,13 @@
   "description": "Node async logger using redis wire protocol",
   "main": "client.js",
   "scripts": {
-    "test": "npm test"
+    "test" : "echo \"Error: not test specified\" && exit 1",
+		"start" : "./bin/daemonize start",
+		"stop" : "./bin/daemonize stop"
   },
-  "keywords": [
-    "nas;"
-  ],
+	"bin" : {
+		"nasl" : "bin/daemonize"
+	},
 	"dependencies" : {
 		"hiredis" : "*",
 		"cassandra-client" : "*",
